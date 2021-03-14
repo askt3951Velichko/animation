@@ -1,0 +1,28 @@
+/* .wrapper { 
+    border: 3px solid #2c3e50;
+    border-radius: 7px;
+    width: 200px;
+    height: 200px;
+    background: #1abc9c;
+    margin-top: 200px;
+    animation: width 3s steps(10);
+ }*/
+
+ .wrapper {
+    border: 3px solid #2c3e50;
+    border-radius: 7px;
+    width: 67px;
+    height: 72px;
+    background: url('./Screenshot_1.png') 0 0 no-repeat;
+    margin-top: 100px;
+    animation: sphere 1s steps(19) infinite;
+ }
+
+ @keyframes sphere {
+    100% {
+        background-position-x: -1171px;
+    }
+ }
+
+
+
